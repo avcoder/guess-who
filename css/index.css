@@ -1,0 +1,118 @@
+body {
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  perspective: 1000px;
+  max-width: 811px;
+}
+
+.none {
+  display: none;
+}
+
+[class^="card"] {
+  border: 1px solid black;
+  margin: 3px;
+  transform-origin: bottom center;
+  width: 93px;
+  height: 145px;
+}
+
+.flip {
+  transform: rotateX(-97deg);
+  transition: transform 1s, opacity 1s;
+  opacity: 0;
+}
+
+.card1 {
+  background: url("../img/guesswho.jpg") -10px -20px;
+}
+
+.card2 {
+  background: url("../img/guesswho.jpg") -132px -20px;
+}
+.card3 {
+  background: url("../img/guesswho.jpg") -256px -20px;
+}
+.card4 {
+  background: url("../img/guesswho.jpg") -381px -20px;
+}
+.card5 {
+  background: url("../img/guesswho.jpg") -503px -20px;
+}
+.card6 {
+  background: url("../img/guesswho.jpg") -623px -20px;
+}
+.card7 {
+  background: url("../img/guesswho.jpg") -749px -20px;
+}
+.card8 {
+  background: url("../img/guesswho.jpg") -875px -20px;
+}
+
+.card9 {
+  background: url("../img/guesswho.jpg") -10px -228px;
+}
+
+.card10 {
+  background: url("../img/guesswho.jpg") -132px -228px;
+}
+
+.card11 {
+  background: url("../img/guesswho.jpg") -256px -228px;
+}
+
+.card12 {
+  background: url("../img/guesswho.jpg") -381px -228px;
+}
+
+.card13 {
+  background: url("../img/guesswho.jpg") -503px -228px;
+}
+
+.card14 {
+  background: url("../img/guesswho.jpg") -623px -228px;
+}
+
+.card15 {
+  background: url("../img/guesswho.jpg") -749px -228px;
+}
+
+.card16 {
+  background: url("../img/guesswho.jpg") -875px -228px;
+}
+
+.card17 {
+  background: url("../img/guesswho.jpg") -10px -436px;
+}
+.card18 {
+  background: url("../img/guesswho.jpg") -132px -436px;
+}
+.card19 {
+  background: url("../img/guesswho.jpg") -256px -436px;
+}
+.card20 {
+  background: url("../img/guesswho.jpg") -381px -436px;
+}
+.card21 {
+  background: url("../img/guesswho.jpg") -503px -436px;
+}
+.card22 {
+  background: url("../img/guesswho.jpg") -623px -436px;
+}
+.card23 {
+  background: url("../img/guesswho.jpg") -749px -436px;
+}
+.card24 {
+  background: url("../img/guesswho.jpg") -875px -436px;
+}
